@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ✅ Light Lavender Gradient Background */
+body {
+  background: linear-gradient(to bottom, #E6E6FA, #D8BFD8);
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* ✅ Dark Mode Background */
+.dark body {
+  background: #1a1a2e;
+}
+
+/* ✅ Smooth UI Enhancements */
+button {
+  transition: all 0.3s ease-in-out;
+}
